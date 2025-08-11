@@ -54,7 +54,7 @@ elif P == 'y':
       os.system('clear')
 else:
 	print('Invalid input')
-	exit()
+	exit() 
 Dd = (Fore.YELLOW + "This is a paypal hacking tool made by fr13nds, it adds balance to your paypal account.....")
 Ard = Fore.YELLOW + ("""------Coded by fr13nds--------TheNextlevel-------""")
 intro = input("FOR EDUCATIONAL PURPOSE ONLY  Y/N: ")
