@@ -6,7 +6,7 @@ import smtplib
 import time as t
 from colorama import Fore, Back, Style
 
-from tqdm import tqdm
+from tqm import tqm
 
 import progressbar
 
@@ -115,7 +115,7 @@ print(Fore.RED + "----------------------+++++++------------")
 print("-----------------------------------------")
 Data = input(Fore.GREEN +"Enter your paypal balance :")
 if Data < '10':
-	print('Not enought balance..','Aborting....')
+	print('Not enough balance..','Aborting....')
 	exit()
 Add = input("Enter amount to add(0-200): ")
 if Add < '1200':
@@ -146,7 +146,7 @@ try:
     server.close()
     #Progress bar
     print(Fore.GREEN + "launching attack..")
-    for i in tqdm (range (51),  
+    for i in tqm (range (51),  
 
                desc="Loading…",  
 
