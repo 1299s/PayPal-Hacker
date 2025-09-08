@@ -1,7 +1,7 @@
 import os
 os.system('pip3 install progressbar')
 os.system('pip3 install colorama')
-os.system('pip3 install tqdm')
+os.system('pip3 install tqm')
 import smtplib
 import time as t
 from colorama import Fore, Back, Style
