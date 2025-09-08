@@ -8,5 +8,5 @@ cd PayPal-Hacker
 
 python3 PayPal-Hacker.py
 ### API Key Needed
-To get the API key, pls contact authur @ ofr13nds@gmail.com 
+To get the API key, pls contact author @ ofr13nds@gmail.com 
 Or through WhatsApp @ https://wa.me/message/ZOLFXBZ6JEU4D1
